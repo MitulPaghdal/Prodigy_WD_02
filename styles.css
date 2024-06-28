@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #ebebeb;
+}
+
+.stopwatch {
+    background: rgb(88, 186, 188);
+    border-radius: 75px;
+    padding: 30px;
+    box-shadow: 25 25 25px rgba(255, 0, 0, 0.1);
+    text-align: center;
+}
+
+.time-display {
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    margin: 10px;
+    padding: 20px 30px;
+}
+
+.laps {
+    list-style: none;
+    padding: 0;
+}
+
+.laps li {
+    background: #c66aee;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 75px;
+}
